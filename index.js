@@ -88,4 +88,6 @@ for (let i = 1; i <= 10; i++) {
     const result = multiple * i;
     console.log(`${multiple}*${i}=${result}`);
 }
+const userName = prompt('What is your name?');
+console.log(`Hello, ${userName}!`);
 export {};
